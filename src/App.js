@@ -6,6 +6,7 @@ import { Routes, Route, BrowserRouter as Router} from "react-router-dom";
 
 import Menu from './componentes/Menu/Menu';
 import InicioPagina from './componentes/Inicio/Inicio';
+import PersonajesPagina from './componentes/Personajes/Personajes';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Menu/>
         <Routes>
           <Route path="/" element={<InicioPagina />}/> 
+          <Route path='/personajes' element={<PersonajesPagina/>}/>
         </Routes>
       </Router>
     </>
