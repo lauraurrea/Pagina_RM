@@ -5,6 +5,7 @@ import { Routes, Route, BrowserRouter as Router} from "react-router-dom";
 
 
 import Menu from './componentes/Menu/Menu';
+import InicioPagina from './componentes/Inicio/Inicio';
 
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
     <>
       <Router>
         <Menu/>
+        <Routes>
+          <Route path="/" element={<InicioPagina />}/> 
+        </Routes>
       </Router>
     </>
   );
