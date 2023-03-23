@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.encabezado{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+.descripcion{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    display: flex;
+}
