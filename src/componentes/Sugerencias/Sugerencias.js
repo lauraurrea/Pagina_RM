@@ -13,10 +13,12 @@ export default class SugerenciasPagina extends React.Component{
         }
         this.submitted=this.submitted.bind(this);
         this.changed=this.changed.bind(this);
+        this.formRef= React.createRef(this);
     }
 
     submitted(event){
         alert("Se envió el formulario de " + this.state.nombre );
+        this.formRef.current.reset();
         event.preventDefault();
     }
 
@@ -38,11 +40,11 @@ export default class SugerenciasPagina extends React.Component{
                 <form onSubmit={this.submitted}>
                     <div className="contenido1 form-group my-3">
                         <label>Nombre</label>
-                        <input type="text" class= "form-control" onChange={this.changed}/>
+                        <input type="text" className= "form-control" onChange={this.changed}/>
                     </div>
                     <div className='contenido2 form-group my-3'>
                     <label>Correo</label>
-                    <input type="mail" class= "form-control" />
+                    <input type="mail" className= "form-control" />
                     </div>
                     <div className="contenido3 form-group my-3">
                         <label>Mensaje de sugerencia</label>
