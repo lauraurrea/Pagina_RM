@@ -16,12 +16,8 @@ function App() {
       <Router>
         <Menu/>
         <Routes>
-<<<<<<< HEAD
           <Route path="/" element={<InicioPagina />}/> 
-=======
-
           <Route path='/personajes' element={<PersonajesPagina/>}/>
->>>>>>> personajespagina
         </Routes>
       </Router>
     </>
