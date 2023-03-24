@@ -2,25 +2,25 @@ import React from "react";
 import './personaje.css'
 
 export default class PersonajeFicha extends React.Component{
-    constructor(props){
-        super(props);
-        this.state={
-            seleccion:false
-        }
+    // constructor(props){
+    //     super(props);
+    //     this.state={
+    //         seleccion:false
+    //     }
 
-        this.toggleSeleccionar=this.toggleSeleccionar.bind(this)
-    }
+    //     this.toggleSeleccionar=this.toggleSeleccionar.bind(this)
+    // }
 
-    toggleSeleccionar(){
-        this.setState(prevState => ({
-            seleccion: !prevState.seleccion
-        }))
-    }
+    // toggleSeleccionar(){
+    //     this.setState(prevState => ({
+    //         seleccion: !prevState.seleccion
+    //     }))
+    // }
     
     render(){
         return(
             <>
-                <div className={"tarjeta " + (this.state.seleccion ? 'select' : 'zoom')}>
+                {/* <div className={"tarjeta " + (this.state.seleccion ? 'select' : 'zoom')}>
                                        
                     <div className="MarcoImg">
                         <img src={this.props.img}/>
@@ -34,7 +34,7 @@ export default class PersonajeFicha extends React.Component{
                         </div>
                         <button className="btn btn-primary" onClick={this.toggleSeleccionar}>{(this.state.seleccion ? 'Quitar' : 'Seleccionar')}</button>
                     </div> 
-                </div>
+                </div> */}
             </>
         )
     }
