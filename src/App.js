@@ -6,7 +6,7 @@ import { Routes, Route, BrowserRouter as Router} from "react-router-dom";
 
 import Menu from './componentes/Menu/Menu';
 
-import PersonajesPagina from './componentes/Personajes/Personajes';
+import PersonajesPagina from './componentes/Personajes/personajes';
 
 
 function App() {
