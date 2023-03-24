@@ -1,0 +1,25 @@
+.tarjetaCap{
+    position: relative;
+    width: 380px;
+    height: 200px;
+    left: 12%;
+}
+
+.InfCapitulo{
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.473);
+    padding: 25px;
+    border: 2px solid rgb(122, 208, 235);
+}
+.InfCapitulo b{
+    border-radius: 30px;
+    color: rgb(188, 250, 129);
+    
+}
+
+.zoom {
+    transition: transform .2s;
+}
