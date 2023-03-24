@@ -42,6 +42,8 @@ export default class PersonajesPagina extends React.Component{
     render(){
         return(
             <>
+            <div className='m-xl-3 m-5'>.</div>
+            <div className='m-xl-1 m-5'>.</div>
             <div className='m-xl-1 m-5'>.</div>
                 <div className='row my-5'>
                     
