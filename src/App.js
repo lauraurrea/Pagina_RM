@@ -9,6 +9,7 @@ import InicioPagina from './componentes/Inicio/Inicio';
 
 import PersonajesPagina from './componentes/Personajes/personajes';
 import CapitulosPagina from './componentes/Capitulos/Capitulos';
+import SugerenciasPagina from './componentes/Sugerencias/Sugerencias';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<InicioPagina />}/> 
           <Route path='/personajes' element={<PersonajesPagina/>}/>
           <Route path='/capitulos' element={<CapitulosPagina/>}/>
+          <Route path='/sugerencias' element={<SugerenciasPagina/>}/>
         </Routes>
       </Router>
     </>
