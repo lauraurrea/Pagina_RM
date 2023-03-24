@@ -2,6 +2,8 @@ import React from 'react';
 import PersonajeFicha from './Personaje';
 import './personajes.css'
 
+// hola
+
 export default class PersonajesPagina extends React.Component{
     // constructor(props){
     //     super(props);
